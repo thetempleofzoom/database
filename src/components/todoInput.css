@@ -1,0 +1,31 @@
+.tdbtn {
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 8px;
+}
+
+.tdsubmit {
+  color: rgba(73, 204, 249, 1.0);
+  border-color: rgba(73, 204, 249, 1.0);
+  background-color: transparent;
+}
+
+input {
+  width: 80%;
+  border: none;
+  border-top: 2px solid rgba(203, 20, 32, 0.4);
+  border-bottom: 2px solid rgba(203, 20, 32, 0.4);
+  margin-right: 10px;
+  padding: 5px;
+  line-height: 17px;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+  border-top: 2px solid rgba(203, 20, 32, 1.0);
+  border-bottom: 2px solid rgba(203, 20, 32, 1.0);
+}
