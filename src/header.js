@@ -8,12 +8,10 @@ export class Header extends React.Component {
         <h1>My Awesome First Ever App</h1>
         <nav>
           <ul>
-            <li>
+            <p>
               <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/todos">To-Do List</Link>
-            </li>
+            </p>
+            <p>  <Link to="/todos">To-Do List</Link> </p>
           </ul>
         </nav>
       </header>
