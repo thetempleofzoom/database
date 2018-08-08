@@ -8,11 +8,11 @@ export class Todolist extends Component {
     super(props);
     this.state = {
       todos: [
-        {id: 0, text: "Fix to-do List"},
-        {id: 1, text: "Pay bills"},
-        {id: 2, text: "open bank account"}
+        // {id: 0, text: "Fix to-do List"},
+        // {id: 1, text: "Pay bills"},
+        // {id: 2, text: "open bank account"}
       ],
-      nextId: 3
+      nextId: 0
     };
 
     this.addTodo = this.addTodo.bind(this);
