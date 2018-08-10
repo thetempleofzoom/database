@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './aboutcomponent.css';
 import TDinput from './tdinputs';
 import TodoItem from './todoItems';
+import logo2 from './todopin.jpg';
 
 export class Todolist extends Component {
   constructor(props) {
@@ -10,7 +11,6 @@ export class Todolist extends Component {
       todos: [
         // {id: 0, text: "Fix to-do List"},
         // {id: 1, text: "Pay bills"},
-        // {id: 2, text: "open bank account"}
       ],
       nextId: 0
     };
@@ -18,6 +18,10 @@ export class Todolist extends Component {
     this.addTodo = this.addTodo.bind(this);
        this.removeTodo = this.removeTodo.bind(this);
      }
+
+     // async componentDidMount() {
+         // const response = await fetch("/todos");
+         // const { todos } = await response.json();
 
      addTodo(todoText) {
        let todos = this.state.todos.slice();
@@ -37,7 +41,10 @@ export class Todolist extends Component {
   render() {
     return (
     <div>
-      <header classname="App-header">My To-Do List
+      <header classname="App-header">
+      <div className="logo2">
+           <img src={logo2} width="150" height="150" />
+           </div>
       </header>
       <TDinput todoText="" addTodo={this.addTodo} />
           <ul>

@@ -9,7 +9,7 @@ export class Header extends React.Component {
         <nav>
           <ul>
             <p>
-              <Link to="/about">About</Link>
+              <Link to="/about">About Me</Link>
             </p>
             <p>  <Link to="/todos">To-Do List</Link> </p>
           </ul>
