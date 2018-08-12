@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 2em;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+
+.App-header {
+  background-color: rgba(203, 20, 32, 0.4);
+  height: 120px;
+  padding: 20px;
+  color: grey;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.TDwrapper {
+  margin: 20px auto 20px auto;
+  width: 50%;
+  minimum height:600px;
+  padding: 20px;
+  padding-bottom: 10px;
+  border: 3px solid rgba(255, 0, 0, 0.4);
+}
+
+.Left {
+  text-align: left;
+  font-size: 1em;
+  font-family: "Comic Sans MS";
+  width: 60%;
+  margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 30px;
+}
